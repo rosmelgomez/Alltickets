@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ALLTICKETSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="IdCliente" />
+    </Key>
+    <Property Name="IdCliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Dni" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Correo" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Telefono" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="FechaNacimiento" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Entrada">
+    <Key>
+      <PropertyRef Name="IdEntrada" />
+    </Key>
+    <Property Name="IdEntrada" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdEvento" Type="int" Nullable="false" />
+    <Property Name="Precio" Type="money" Nullable="false" />
+    <Property Name="Cantidad" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EntradasVenta">
+    <Key>
+      <PropertyRef Name="IdVenta" />
+      <PropertyRef Name="IdEntrada" />
+    </Key>
+    <Property Name="IdVenta" Type="int" Nullable="false" />
+    <Property Name="IdEntrada" Type="int" Nullable="false" />
+    <Property Name="CantidadEntrada" Type="int" Nullable="false" />
+    <Property Name="PrecioParcial" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Evento">
+    <Key>
+      <PropertyRef Name="IdEvento" />
+    </Key>
+    <Property Name="IdEvento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="LugarEvento" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="FechaEvento" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pago">
+    <Key>
+      <PropertyRef Name="IdPago" />
+    </Key>
+    <Property Name="IdPago" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MedioPago" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="TipoMoneda" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Vendedor">
+    <Key>
+      <PropertyRef Name="IdVendedor" />
+    </Key>
+    <Property Name="IdVendedor" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Dni" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="IdJefe" Type="int" />
+    <Property Name="Ocupacion" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Usuario" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Contraseña" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Venta">
+    <Key>
+      <PropertyRef Name="IdVenta" />
+    </Key>
+    <Property Name="IdVenta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdCliente" Type="int" Nullable="false" />
+    <Property Name="IdPago" Type="int" Nullable="false" />
+    <Property Name="IdVendedor" Type="int" Nullable="false" />
+    <Property Name="PrecioTotal" Type="money" Nullable="false" />
+    <Property Name="CantidadTotalEntrada" Type="int" Nullable="false" />
+    <Property Name="FechaCompra" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Entrada__IdEvent__5441852A">
+    <End Role="Evento" Type="Self.Evento" Multiplicity="1" />
+    <End Role="Entrada" Type="Self.Entrada" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Evento">
+        <PropertyRef Name="IdEvento" />
+      </Principal>
+      <Dependent Role="Entrada">
+        <PropertyRef Name="IdEvento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__EntradasV__IdEnt__5CD6CB2B">
+    <End Role="Entrada" Type="Self.Entrada" Multiplicity="1" />
+    <End Role="EntradasVenta" Type="Self.EntradasVenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entrada">
+        <PropertyRef Name="IdEntrada" />
+      </Principal>
+      <Dependent Role="EntradasVenta">
+        <PropertyRef Name="IdEntrada" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__EntradasV__Preci__5BE2A6F2">
+    <End Role="Venta" Type="Self.Venta" Multiplicity="1" />
+    <End Role="EntradasVenta" Type="Self.EntradasVenta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Venta">
+        <PropertyRef Name="IdVenta" />
+      </Principal>
+      <Dependent Role="EntradasVenta">
+        <PropertyRef Name="IdVenta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Venta__IdCliente__571DF1D5">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Venta" Type="Self.Venta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="IdCliente" />
+      </Principal>
+      <Dependent Role="Venta">
+        <PropertyRef Name="IdCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Venta__IdPago__5812160E">
+    <End Role="Pago" Type="Self.Pago" Multiplicity="1" />
+    <End Role="Venta" Type="Self.Venta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pago">
+        <PropertyRef Name="IdPago" />
+      </Principal>
+      <Dependent Role="Venta">
+        <PropertyRef Name="IdPago" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Venta__IdVendedo__59063A47">
+    <End Role="Vendedor" Type="Self.Vendedor" Multiplicity="1" />
+    <End Role="Venta" Type="Self.Venta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vendedor">
+        <PropertyRef Name="IdVendedor" />
+      </Principal>
+      <Dependent Role="Venta">
+        <PropertyRef Name="IdVendedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="VendedorFk">
+    <End Role="Vendedor" Type="Self.Vendedor" Multiplicity="0..1" />
+    <End Role="Vendedor1" Type="Self.Vendedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vendedor">
+        <PropertyRef Name="IdVendedor" />
+      </Principal>
+      <Dependent Role="Vendedor1">
+        <PropertyRef Name="IdJefe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ALLTICKETSModelStoreContainer">
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Entrada" EntityType="Self.Entrada" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EntradasVenta" EntityType="Self.EntradasVenta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Evento" EntityType="Self.Evento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pago" EntityType="Self.Pago" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vendedor" EntityType="Self.Vendedor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Venta" EntityType="Self.Venta" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Entrada__IdEvent__5441852A" Association="Self.FK__Entrada__IdEvent__5441852A">
+      <End Role="Evento" EntitySet="Evento" />
+      <End Role="Entrada" EntitySet="Entrada" />
+    </AssociationSet>
+    <AssociationSet Name="FK__EntradasV__IdEnt__5CD6CB2B" Association="Self.FK__EntradasV__IdEnt__5CD6CB2B">
+      <End Role="Entrada" EntitySet="Entrada" />
+      <End Role="EntradasVenta" EntitySet="EntradasVenta" />
+    </AssociationSet>
+    <AssociationSet Name="FK__EntradasV__Preci__5BE2A6F2" Association="Self.FK__EntradasV__Preci__5BE2A6F2">
+      <End Role="Venta" EntitySet="Venta" />
+      <End Role="EntradasVenta" EntitySet="EntradasVenta" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Venta__IdCliente__571DF1D5" Association="Self.FK__Venta__IdCliente__571DF1D5">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Venta" EntitySet="Venta" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Venta__IdPago__5812160E" Association="Self.FK__Venta__IdPago__5812160E">
+      <End Role="Pago" EntitySet="Pago" />
+      <End Role="Venta" EntitySet="Venta" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Venta__IdVendedo__59063A47" Association="Self.FK__Venta__IdVendedo__59063A47">
+      <End Role="Vendedor" EntitySet="Vendedor" />
+      <End Role="Venta" EntitySet="Venta" />
+    </AssociationSet>
+    <AssociationSet Name="VendedorFk" Association="Self.VendedorFk">
+      <End Role="Vendedor" EntitySet="Vendedor" />
+      <End Role="Vendedor1" EntitySet="Vendedor" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

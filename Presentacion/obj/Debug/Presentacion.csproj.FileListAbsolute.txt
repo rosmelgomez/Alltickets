@@ -1,0 +1,64 @@
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Presentacion.exe.config
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Presentacion.exe
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Presentacion.pdb
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Datos.dll
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\EntityFramework.dll
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\EntityFramework.SqlServer.dll
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Negocio.dll
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Datos.pdb
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Datos.dll.config
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Negocio.pdb
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\EntityFramework.xml
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\EntityFramework.SqlServer.xml
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.exe
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.pdb
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\ALLTICKETS.Diseño.ComboBoxDiseño.resources
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\ALLTICKETS.Diseño.TextBoxDiseño.resources
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.AccesoAlltickets.resources
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.ClienteAlltickets.resources
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.InterfazAlltickets.resources
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.EntradaAlltickets.resources
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.EventoAlltickets.resources
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.VentaAlltickets.resources
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.PagoAlltickets.resources
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.EntradasVentaAlltickets.resources
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.ReportesAlltickets.resources
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.VendedorAltickets.resources
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Negocio.dll.config
+D:\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presenta.BC77CD05.Up2Date
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Presentacion.exe.config
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Presentacion.exe
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Presentacion.pdb
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Datos.dll
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\EntityFramework.dll
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\EntityFramework.SqlServer.dll
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Negocio.dll
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Datos.pdb
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Datos.dll.config
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Negocio.pdb
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\Negocio.dll.config
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\EntityFramework.xml
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\bin\Debug\EntityFramework.SqlServer.xml
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.AccesoAlltickets.resources
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.ClienteAlltickets.resources
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\ALLTICKETS.Diseño.ComboBoxDiseño.resources
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\ALLTICKETS.Diseño.TextBoxDiseño.resources
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.EntradaAlltickets.resources
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.EntradasVentaAlltickets.resources
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.EventoAlltickets.resources
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.InterfazAlltickets.resources
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.PagoAlltickets.resources
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.ReportesAlltickets.resources
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.VendedorAltickets.resources
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.VentaAlltickets.resources
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presenta.BC77CD05.Up2Date
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.exe
+D:\FUNDAMENTOS DE SISTEMAS DE INFORMACIÓN\programas de c##\ALLTICKETS_GRUPO2_TRABAJO_FINAL\ALLTICKETS_GRUPO2_TRABAJO_FINAL\Presentacion\obj\Debug\Presentacion.pdb

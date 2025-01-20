@@ -1,0 +1,79 @@
+create database ALLTICKETS
+use ALLTICKETS
+
+create table Vendedor(
+IdVendedor int identity(1,1) primary key,
+Dni char(8) not null unique,
+Nombre varchar(50) not null,
+Apellido varchar(50) not null,
+IdJefe int null,
+Ocupacion varchar(30) not null,
+Usuario varchar(30) not null,
+Contraseña varchar(30) not null,
+)
+
+alter table Vendedor add constraint VendedorFk
+foreign key (IdJefe)
+references Vendedor(IdVendedor) 
+
+create table Cliente(
+IdCliente int identity(1,1) primary key,
+Dni char(8) not null unique ,
+Nombre varchar(50) not null,
+Apellido varchar(50) not null,
+Correo varchar(50) not null,
+Telefono varchar(9) not null,
+FechaNacimiento datetime not null,
+)
+
+create table Pago(
+IdPago int identity(1,1) primary key,
+MedioPago varchar(30) not null,
+TipoMoneda varchar(20) not null
+)
+
+create table Evento(
+IdEvento int identity(1,1) primary key,
+Nombre varchar(30) not null,
+LugarEvento varchar(100) not null,
+FechaEvento  datetime not null
+)
+
+create table Entrada(
+IdEntrada int identity(1,1) primary key,
+IdEvento int not null,
+Precio money not null,
+Cantidad int not null,
+foreign key (IdEvento)
+references Evento(IdEvento),
+)
+
+create table Venta(
+IdVenta int identity(1,1) primary key, 
+IdCliente int not null,
+IdPago int not null,
+IdVendedor int not null,
+PrecioTotal money not null,
+CantidadTotalEntrada int not null,
+FechaCompra datetime not null,
+foreign key (IdCliente)
+references Cliente(IdCliente),
+foreign key (IdPago)
+references Pago(IdPago),
+foreign key (IdVendedor)
+references Vendedor(IdVendedor)
+)
+
+create table EntradasVenta(
+IdVenta int  NOT NULL,
+IdEntrada int  NOT NULL,
+CantidadEntrada int  NOT NULL,
+PrecioParcial money  NOT NULL
+primary key (IdVenta,IdEntrada)
+FOREIGN  KEY (IdVenta)
+REFERENCES Venta(IdVenta),
+FOREIGN KEY (IdEntrada)
+REFERENCES Entrada(IdEntrada),
+)
+
+insert into Vendedor values('87452136','Pedro','Perez Loarte',null,'Jefe','acceso','contraseña')
